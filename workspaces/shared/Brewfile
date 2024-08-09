@@ -1,14 +1,16 @@
 brew "autojump"
-brew "bat"      # better cat
-brew "fx"       # interactive JSON browser 
-brew "gh"       # GitHub CLI
+brew "bat"       # better cat
+brew "fx"        # interactive JSON browser 
+brew "gh"        # GitHub CLI
 brew "git"
+brew "git-delta" # better diff for git
 brew "jq"
-brew "lsd"      # better ls
-brew "micro"    # simple editor
+brew "lsd"       # better ls
+brew "micro"     # simple editor
+brew "proselint" # lint English text / markdown
 brew "ripgrep"
-brew "starship" # terminal prompt
-brew "tldr"     # simple man
+brew "starship"  # terminal prompt
+brew "tldr"      # simple man
 brew "tree"
 
 # terminal fonts

@@ -1,0 +1,23 @@
+brew "vhs"       # record terminal actions to GIF
+brew "ddate"     # Discordian date
+brew "roll"      # dice roller
+brew "thefuck"   # fix commands with typos
+brew "gng"       # smart gradle command, uses wrapper or falls back to installed
+
+cask "iterm2"    # better terminal
+cask "arc"       # browser
+cask "discord"
+cask "obsidian"  # hypertext notes
+cask "zoom"
+cask "zulu@21"   # JDK
+
+# gaming stuff
+cask "nvidia-geforce-now"
+cask "steam"
+
+mas "Affinity Publisher 2", id: 1606941598
+mas "Dashlane", id: 517914548
+mas "Kindle", id: 405399194
+mas "Keynote", id: 409183694
+mas "HP Easy Scan", id: 967004861
+mas "Slack", id: 803453959

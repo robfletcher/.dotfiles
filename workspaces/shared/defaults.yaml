@@ -12,6 +12,16 @@ NSGlobalDomain:
   # Disable smooth scrolling.
 #  NSScrollAnimationEnabled: false
 
+  # Show file extensions in Finder
+  AppleShowAllExtensions: true
+
+# Tap to click for trackpad
+com.apple.AppleMultitouchTrackpad:
+  Clicking: false
+com.apple.driver.AppleBluetoothMultitouch.trackpad:
+  Clicking: false
+  TrackpadRightClick: true
+
 com.apple.desktopservices:
   # Disable .DS_Store files on network drives.
   DSDontWriteNetworkStores: true
@@ -19,7 +29,19 @@ com.apple.desktopservices:
   # Disable .DS_Store files on external drives.
   DSDontWriteUSBStores: true
 
+# Hide dock
+com.apple.dock:
+  autohide: true
+  autohide-delay: 1000
+  no-bouncing: true
+
 com.apple.finder:
+  # Show hidden files
+  AppleShowAllFiles: true
+
+  # Show path bar at top of finder windows
+  ShowPathbar: true
+  
   # Finder > View > Show view options > Sort Group By > Name.
   FXArrangeGroupViewBy: Name
 
@@ -32,6 +54,9 @@ com.apple.finder:
 
   # Finder > View > As List.
   FXPreferredViewStyle: Nlsv
+
+  # Show UNIX style path in window title
+  # FXShowPosixPathInTitle: true
 
   # Finder > Preferences > New Finder windows show > Home directory.
   NewWindowTarget: PfHm
@@ -50,42 +75,9 @@ com.apple.iTunes:
   # syncing automatically.
   dontAutomaticallySyncIPods: true
 
-com.apple.dt.Xcode:
-  # Xcode > Preferences > Text Editing > Page guide at column.
-  DVTTextShowPageGuide: true
-
-  # Xcode > Preferences > Text Editing > While editing: Automatically trim
-  # trailing whitespace.
-  DVTTextEditorTrimTrailingWhitespace: true
-
-  # Xcode > Preferences > Text Editing > While editing: Automatically trim
-  # trailing whitespace > Including whitespace-only lines.
-  DVTTextEditorTrimWhitespaceOnlyLines: true
-
-  # Xcode > Preferences > Text Editing > Page guide at column: 120.
-  DVTTextPageGuideLocation: 120
-
-  # Xcode > Preferences > General > Issue Navigator Detail > Up to Ten Lines.
-  IDESearchNavigatorDetailLevel: 10
-
-  # Show build timer within Xcode UI.
-  ShowBuildOperationDuration: true
-
-  # Xcode > Preferences > Fonts & Colors > Theme > San Jose.
-  XCFontAndColorCurrentTheme: "San Jose.xccolortheme"
-  XCFontAndColorCurrentDarkTheme: "San Jose.xccolortheme"
-
 com.apple.TextEdit:
   # TextEdit > Preferences > New Document > Plain text.
   RichText: false
-
-com.apple.Terminal:
-  # Terminal > Secure Keyboard Entry.
-  SecureKeyboardEntry: true
-
-  # Set custom theme as default.
-#  "Default Window Settings": Zenburn
-#  "Startup Window Settings": Zenburn
 
 com.apple.SoftwareUpdate:
   # System Preferences > Software Update > Advanced... > Automatically check
@@ -95,7 +87,3 @@ com.apple.SoftwareUpdate:
   # System Preferences > Software Update > Advanced... > Download new updates
   # when available.
   AutomaticDownload: true
-
-#org.gnu.Emacs:
-  # Enable natural title bar patch for Emacs.
-#  TransparentTitleBar: DARK
