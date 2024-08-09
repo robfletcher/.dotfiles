@@ -1,0 +1,10 @@
+tap "airbnb/main", "git@git.musta.ch:airbnb/homebrew-main.git"
+
+brew "bazelisk"
+brew "watchman"
+brew "ykman"
+
+# JDKs
+cask "corretto@17"
+cask "corretto@21"
+cask "corretto@8"

@@ -1,0 +1,21 @@
+brew "autojump"
+brew "bat" # better cat
+brew "fx" # interactive JSON browser 
+brew "gh" # GitHub CLI
+brew "git"
+brew "jq"
+brew "lsd" # better ls
+brew "micro" # simple editor
+brew "ripgrep"
+brew "starship" # terminal prompt
+brew "tldr" # simple man
+brew "tree"
+
+# terminal fonts
+cask "font-iosevka-term-nerd-font"
+cask "font-iosevka-term-slab-nerd-font"
+
+cask "jetbrains-toolbox"
+
+mas "Pixelmator Pro", id: 1289583905
+mas "Magnet", id: 441258766
