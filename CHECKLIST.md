@@ -4,11 +4,6 @@
 
 Run `~/.dotfiles/zero/setup`.
 
-## Touch ID sudo
+## Fix opt-left / opt-right in iTerm
 
-Edit `/etc/pam.d/sudo` and add these as the first two lines.
-
-```
-auth       sufficient     pam_touchid.so "reason=execute a command as root"
-auth       sufficient     pam_watchid.so "reason=execute a command as root"
-```
+In iTerm settings, `Profiles → Keys → Key Mappings`, change "Presets" to "Natural Text Editing".
