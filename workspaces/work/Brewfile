@@ -24,3 +24,4 @@ cask "corretto@21"
 cask "corretto@8"
 
 cask "postman"
+cask "visual-studio-code"
