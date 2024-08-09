@@ -2,4 +2,11 @@
 
 ## Install / configure everything
 
-Run `~/.dotfiles/zero/setup`.
+```
+git clone --recursive https://github.com/robfletcher/.dotfiles ~/.dotfiles
+~/.dotfiles/zero/setup <workspace name>
+```
+
+## Regular updates
+
+Run `zero update`.
