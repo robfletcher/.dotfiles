@@ -3,6 +3,20 @@ tap "airbnb/main", "git@git.musta.ch:airbnb/homebrew-main.git"
 brew "bazelisk"
 brew "watchman"
 brew "ykman"
+brew "nvm"
+brew "gnu-tar"
+brew "pyenv"
+
+# See https://developers.a.musta.ch/docs/default/component/frontend/getting-started/#nvm-node-yarn-homebrew-bazel
+brew "cmake"
+brew "pkg-config"
+brew "cairo"
+brew "pango"
+brew "libpng"
+brew "jpeg"
+brew "giflib"
+brew "librsvg"
+brew "python-setuptools"
 
 # JDKs
 cask "corretto@17"
