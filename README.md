@@ -1,4 +1,4 @@
-# Manual steps
+# Instructions
 
 ## Install / configure everything
 
