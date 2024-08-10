@@ -12,6 +12,15 @@ setopt PUSHD_SILENT         # Do not print the directory stack after pushd or po
 # turn on completions
 autoload -U compinit; compinit
 
+(( $+commands[lsd] )) && alias ls="lsd"  # alias better ls if installed
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la="ls -A"
+alias cd..="cd .."                       # common typo
+alias top="top -o cpu"                   # default top to CPU usage
+alias tf="tail -f"
+(( $+commands[bat] )) && alias cat="bat" # alias better cat if installed
+
 # emacs key bindings
 bindkey -e
 
