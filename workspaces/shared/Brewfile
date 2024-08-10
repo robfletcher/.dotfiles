@@ -13,6 +13,7 @@ brew "starship"  # terminal prompt
 brew "tldr"      # simple man
 brew "tree"
 brew "zsh-syntax-highlighting"
+brew "zsh-autosuggestions" # autocomplete from history with muted hints
 
 # terminal fonts
 cask "font-iosevka-term-nerd-font"

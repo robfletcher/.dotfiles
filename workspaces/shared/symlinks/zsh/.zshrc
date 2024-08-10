@@ -15,38 +15,21 @@ autoload -U compinit; compinit
 # emacs key bindings
 bindkey -e
 
-# autocompletion using arrow keys (based on history)
-bindkey '\e[A' history-search-backward
-bindkey '\e[B' history-search-forward
-
 # make opt left/right work properly in terminal
 bindkey '^[[1;9C' forward-word
 bindkey '^[[1;9D' backward-word
 
-# page up / down in history
-bindkey "${terminfo[kpp]}" up-line-or-history
-bindkey "${terminfo[knp]}" down-line-or-history
-
 # home / end
-bindkey "${terminfo[khome]}" beginning-of-line
-bindkey "${terminfo[kend]}"  end-of-line
-
-# shift + tab move thru completion backwards
-bindkey "${terminfo[kcbt]}" reverse-menu-complete
-
-# backspace: delete backwards
-bindkey '^?' backward-delete-char
-if [[ -n "${terminfo[kdch1]}" ]]; then
-  bindkey "${terminfo[kdch1]}" delete-char
-  bindkey "^[[3~" delete-char
-  bindkey "^[3;5~" delete-char
-else
-fi
+bindkey '^[[H' beginning-of-line
+bindkey '^[[F' end-of-line
 
 # autojump completion
-[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+[ -f $(brew --prefix)/etc/profile.d/autojump.sh ] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
-# source any external *.zsh files
+# setup autosuggestions (fish-like autosuggestions)
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# source any external *.zsh files (symlinked from zero workspace)
 for file in "$HOME"/.zsh/*.zsh
 do
   source "$file"
