@@ -1,7 +1,5 @@
 # alias better ls if installed
-if echo =lsd &> /dev/null; then
-	alias ls="lsd"
-fi
+(( $+commands[lsd] )) && alias ls="lsd"
 
 # common ls uses
 alias l="ls -lAh"
@@ -18,6 +16,4 @@ alias top="top -o cpu"
 alias tf="tail -f"
 
 # alias better cat if installed
-if echo =bat &> /dev/null; then
-	alias cat="bat"
-fi
+(( $+commands[bat] )) && alias cat="bat"
