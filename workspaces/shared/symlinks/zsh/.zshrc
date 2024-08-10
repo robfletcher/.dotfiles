@@ -47,7 +47,7 @@ fi
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
 # source any external *.zsh files
-for file in "$ZDOTDIR"/.*.zsh
+for file in "$HOME"/.zsh/*.zsh
 do
   source "$file"
 done
