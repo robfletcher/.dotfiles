@@ -1,3 +1,5 @@
+tap "gdubw/gng"
+
 brew "autojump"
 brew "bat"       # better cat
 brew "fx"        # interactive JSON browser 
