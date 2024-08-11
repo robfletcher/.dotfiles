@@ -2,7 +2,6 @@ brew "vhs"       # record terminal actions to GIF
 brew "ddate"     # Discordian date
 brew "roll"      # dice roller
 brew "thefuck"   # fix commands with typos
-brew "gng"       # smart gradle command, uses wrapper or falls back to installed
 
 cask "iterm2"    # better terminal
 cask "arc"       # browser
