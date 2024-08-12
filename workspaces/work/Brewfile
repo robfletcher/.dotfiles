@@ -1,5 +1,6 @@
 tap "airbnb/main", "git@git.musta.ch:airbnb/homebrew-main.git"
 
+brew "awscli"
 brew "bazelisk"
 brew "watchman"
 brew "ykman"
@@ -23,5 +24,6 @@ cask "corretto@17"
 cask "corretto@21"
 cask "corretto@8"
 
+cask "docker"
 cask "postman"
 cask "visual-studio-code"
