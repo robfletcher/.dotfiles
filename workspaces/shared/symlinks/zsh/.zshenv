@@ -10,3 +10,6 @@ export ZDOTDIR="$HOME"
 export HISTFILE="$ZDOTDIR/.zsh_history" # History filepath
 export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
+
+# config path for ripgrep
+export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
