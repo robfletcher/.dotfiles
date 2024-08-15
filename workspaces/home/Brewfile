@@ -6,7 +6,6 @@ brew "thefuck"   # fix commands with typos
 cask "iterm2"    # better terminal
 cask "arc"       # browser
 cask "discord"
-cask "obsidian"  # hypertext notes
 cask "zoom"
 cask "zulu@21"   # JDK
 
