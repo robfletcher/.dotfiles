@@ -3,6 +3,7 @@ brew "ddate"     # Discordian date
 brew "roll"      # dice roller
 brew "thefuck"   # fix commands with typos
 
+cask "1password"
 cask "iterm2"    # better terminal
 cask "arc"       # browser
 cask "discord"
