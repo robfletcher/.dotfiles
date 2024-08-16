@@ -34,8 +34,8 @@ bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
 
 # make up and down navigate history based on current input
-bindkey "^[[A" history-beginning-search-backward
-bindkey "^[[B" history-beginning-search-forward
+bindkey "^[[A" history-search-backward
+bindkey "^[[B" history-search-forward
 
 # autojump completion
 [ -f $(brew --prefix)/etc/profile.d/autojump.sh ] && . $(brew --prefix)/etc/profile.d/autojump.sh
