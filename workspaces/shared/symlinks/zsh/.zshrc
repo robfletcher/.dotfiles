@@ -37,6 +37,9 @@ bindkey '^[[F' end-of-line
 bindkey "^[[A" history-search-backward
 bindkey "^[[B" history-search-forward
 
+# use opt delete to delete whole words forward
+bindkey '^[[3;9~' delete-word
+
 # autojump completion
 [ -f $(brew --prefix)/etc/profile.d/autojump.sh ] && . $(brew --prefix)/etc/profile.d/autojump.sh
 

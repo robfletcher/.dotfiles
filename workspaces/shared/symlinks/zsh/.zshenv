@@ -13,3 +13,8 @@ export SAVEHIST=10000                   # Maximum events in history file
 
 # config path for ripgrep
 export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
+
+# dont consider /-_ as word characters
+export WORDCHARS=${WORDCHARS/\/}
+export WORDCHARS=${WORDCHARS/-}
+export WORDCHARS=${WORDCHARS/_}
