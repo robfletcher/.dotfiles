@@ -34,8 +34,8 @@ bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
 
 # make up and down navigate history based on current input
-bindkey "^[[A" history-search-backward
-bindkey "^[[B" history-search-forward
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
 
 # use opt delete to delete whole words forward
 bindkey '^[[3;9~' delete-word
