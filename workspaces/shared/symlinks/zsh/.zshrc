@@ -46,6 +46,9 @@ bindkey '^[[3;9~' delete-word
 # setup autosuggestions (fish-like autosuggestions)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# automate fixing command line typos
+eval $(thefuck --alias)
+
 # source any external *.zsh files (symlinked from zero workspace)
 for file in "$HOME"/.zsh/*.zsh
 do

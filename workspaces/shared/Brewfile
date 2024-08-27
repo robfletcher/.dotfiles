@@ -13,6 +13,7 @@ brew "micro"     # simple editor
 brew "proselint" # lint English text / markdown
 brew "ripgrep"
 brew "starship"  # terminal prompt
+brew "thefuck"   # fix commands with typos
 brew "tldr"      # simple man
 brew "tree"
 brew "zsh-syntax-highlighting"
