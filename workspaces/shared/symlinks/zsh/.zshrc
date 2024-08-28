@@ -50,10 +50,12 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval $(thefuck --alias)
 
 # source any external *.zsh files (symlinked from zero workspace)
-for file in "$HOME"/.zsh/*.zsh
-do
-  source "$file"
-done
+if [[ -d "$HOME/.zsh" ]]; then
+  for file in "$HOME"/.zsh/*.zsh
+  do
+    source "$file"
+  done
+fi
 
 # enable syntax highlighting THIS MUST BE LAST IN THE FILE
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
