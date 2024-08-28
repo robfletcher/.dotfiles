@@ -87,3 +87,8 @@ com.apple.SoftwareUpdate:
   # System Preferences > Software Update > Advanced... > Download new updates
   # when available.
   AutomaticDownload: true
+
+com.googlecode.iterm2.plist:
+  # make iTerm load preferences from the symlinked dotfiles directory
+  PrefsCustomFolder: "${HOME}/.iterm2"
+  LoadPrefsFromCustomFolder: true
