@@ -8,6 +8,7 @@ brew "git"
 brew "git-delta" # better diff for git
 brew "gng"       # smart gradle command, uses wrapper or falls back to installed
 brew "jq"
+brew "lazygit"   # terminal GUI for git
 brew "lsd"       # better ls
 brew "micro"     # simple editor
 brew "proselint" # lint English text / markdown
