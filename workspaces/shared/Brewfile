@@ -2,6 +2,7 @@ tap "gdubw/gng"
 
 brew "autojump"
 brew "bat"       # better cat
+brew "broot"     # interactive tree
 brew "direnv"    # customize env per directory
 brew "fx"        # interactive JSON browser 
 brew "gh"        # GitHub CLI
