@@ -46,6 +46,9 @@ bindkey '^[[3;9~' delete-word
 # setup autosuggestions (fish-like autosuggestions)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# enable direnv (hook to auto-set environment variables per directory)
+eval "$(direnv hook zsh)"
+
 # automate fixing command line typos
 eval $(thefuck --alias)
 
