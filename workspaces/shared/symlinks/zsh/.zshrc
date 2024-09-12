@@ -1,8 +1,13 @@
 # setup starship prompt
 eval "$(starship init zsh)"
 
+setopt SHARE_HISTORY           # all sessions share history
 setopt INC_APPEND_HISTORY_TIME # shells all append to the same history but not instantly
 setopt HIST_EXPIRE_DUPS_FIRST  # expire duplicates from history first
+setopt HIST_REDUCE_BLANKS      # remove unnecessary blanks from history entries
+setopt EXTENDED_HISTORY        # adds timestamps to history entries
+setopt HIST_FIND_NO_DUPS       # ignore duplicates when finding history
+setopt HIST_VERIFY             # show command to user before executing
 
 # pushd/popd behavior
 setopt AUTO_PUSHD           # Push the current directory visited on the stack.
