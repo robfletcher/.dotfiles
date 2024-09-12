@@ -25,6 +25,7 @@ cask "corretto@11"
 cask "corretto@17"
 cask "corretto@21"
 
+cask "asana"
 cask "docker"
 cask "postman"
 cask "visual-studio-code"
