@@ -1,10 +1,7 @@
-brew "vhs"       # record terminal actions to GIF
-brew "ddate"     # Discordian date
 brew "roll"      # dice roller
 
 cask "1password"
 cask "iterm2"    # better terminal
-cask "arc"       # browser
 cask "discord"
 cask "zoom"
 cask "zulu@21"   # JDK

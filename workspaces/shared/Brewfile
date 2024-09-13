@@ -3,6 +3,7 @@ tap "gdubw/gng"
 brew "autojump"
 brew "bat"       # better cat
 brew "broot"     # interactive tree
+brew "ddate"     # Discordian date
 brew "direnv"    # customize env per directory
 brew "fx"        # interactive JSON browser 
 brew "gh"        # GitHub CLI
@@ -19,6 +20,7 @@ brew "starship"  # terminal prompt
 brew "thefuck"   # fix commands with typos
 brew "tldr"      # simple man
 brew "tree"
+brew "vhs"       # record terminal actions to GIF
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions" # autocomplete from history with muted hints
 
@@ -26,6 +28,7 @@ brew "zsh-autosuggestions" # autocomplete from history with muted hints
 cask "font-iosevka-term-nerd-font"
 cask "font-iosevka-term-slab-nerd-font"
 
+cask "arc"       # browser
 cask "jetbrains-toolbox"
 cask "obsidian"
 
