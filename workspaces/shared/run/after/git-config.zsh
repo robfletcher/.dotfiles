@@ -9,6 +9,18 @@ git_config=(
 	rerere.enabled true         # something to do with conflict handling
 	status.branch true          # display branch header in status
 	status.short true           # default to short status, --no-short to disable
+
+	alias.amend 'commit --amend --no-edit'
+	alias.please 'push --force-with-lease'
+	alias.gone "! git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '\$2 == \"[gone]\" {print \$1}' | xargs -r git branch -D"
+
+	# settings for git-delta diff tool
+	core.pager "delta"
+	interactive.diffFilter "delta --color-only"
+	delta.navigate "true"
+	delta.side-by-side "true"
+	merge.conflictstyle "diff3"
+	diff.colorMoved "default"
 )
 
 for key val in "${(@kv)git_config}"; do
