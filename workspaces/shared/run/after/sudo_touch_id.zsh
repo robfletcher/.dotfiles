@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 touch_id_auth_file="/etc/pam.d/sudo_local"
 touch_id_template_file="/etc/pam.d/sudo_local.template"

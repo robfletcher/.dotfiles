@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 # Use Cloudflare DNS
 if [[ `networksetup -getdnsservers Wi-Fi` != 1.1.1.1* ]];
   then
