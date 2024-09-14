@@ -66,7 +66,7 @@ if [[ -d "$HOME/.zsh" ]]; then
 fi
 
 # install broot helper
-source /Users/rob_fletcher/.config/broot/launcher/bash/br
+source "$HOME/.config/broot/launcher/bash/br"
 
 # enable syntax highlighting THIS MUST BE LAST IN THE FILE
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
