@@ -33,4 +33,3 @@ cask "jetbrains-toolbox"
 cask "obsidian"
 
 mas "Pixelmator Pro", id: 1289583905
-mas "Magnet", id: 441258766
