@@ -21,6 +21,7 @@ brew "thefuck"   # fix commands with typos
 brew "tldr"      # simple man
 brew "tree"
 brew "vhs"       # record terminal actions to GIF
+brew "watch"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions" # autocomplete from history with muted hints
 
