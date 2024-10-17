@@ -3,6 +3,8 @@ brew "roll"      # dice roller
 cask "1password"
 cask "iterm2"    # better terminal
 cask "discord"
+cask "proton-pass"
+cask "protonvpn"
 cask "zoom"
 cask "zulu@21"   # JDK
 
