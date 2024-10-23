@@ -13,7 +13,7 @@ cask "nvidia-geforce-now"
 cask "steam"
 
 mas "Affinity Publisher 2", id: 1606941598
-mas "Kindle", id: 405399194
+mas "Kindle", id: 302584613
 mas "Keynote", id: 409183694
 mas "HP Easy Scan", id: 967004861
 mas "Slack", id: 803453959
