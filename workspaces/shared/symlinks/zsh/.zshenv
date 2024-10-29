@@ -18,6 +18,7 @@ export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
 export WORDCHARS=${WORDCHARS/\/}
 export WORDCHARS=${WORDCHARS/-}
 export WORDCHARS=${WORDCHARS/_}
+export WORDCHARS=${WORDCHARS/.}
 
 # node stuff to make direnv work
 export NODE_VERSIONS=~/.nvm/versions/node
