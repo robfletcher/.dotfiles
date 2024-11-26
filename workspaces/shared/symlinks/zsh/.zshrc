@@ -45,9 +45,6 @@ bindkey "^[[B" history-beginning-search-forward
 # use opt delete to delete whole words forward
 bindkey '^[[3;9~' delete-word
 
-# autojump completion
-[ -f $(brew --prefix)/etc/profile.d/autojump.sh ] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
 # setup autosuggestions (fish-like autosuggestions)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -67,6 +64,8 @@ fi
 
 # install broot helper
 source "$HOME/.config/broot/launcher/bash/br"
+
+eval "$(zoxide init zsh --cmd cd)"
 
 # enable syntax highlighting THIS MUST BE LAST IN THE FILE
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

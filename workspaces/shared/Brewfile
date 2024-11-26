@@ -1,6 +1,5 @@
 tap "gdubw/gng"
 
-brew "autojump"
 brew "bat"       # better cat
 brew "broot"     # interactive tree
 brew "ddate"     # Discordian date
@@ -22,6 +21,7 @@ brew "tldr"      # simple man
 brew "tree"
 brew "vhs"       # record terminal actions to GIF
 brew "watch"
+brew "zoxide"    # better cd / autojump
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions" # autocomplete from history with muted hints
 
