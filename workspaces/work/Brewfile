@@ -1,4 +1,5 @@
 tap "airbnb/main", "git@git.musta.ch:airbnb/homebrew-main.git"
+tap "airbnb/dataeng", "git@git.musta.ch:airbnb/homebrew-dataeng.git"
 
 brew "awscli"
 brew "bazelisk"
@@ -18,6 +19,9 @@ brew "jpeg"
 brew "giflib"
 brew "librsvg"
 brew "python-setuptools"
+
+# Oneflow CLI tool for running/testing Airflow DAGs
+brew "of"
 
 # JDKs
 cask "corretto@8"
