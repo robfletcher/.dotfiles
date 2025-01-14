@@ -15,6 +15,13 @@ NSGlobalDomain:
   # Show file extensions in Finder
   AppleShowAllExtensions: true
 
+com.apple.WindowManager:
+  # disable margins on tiled windows
+  EnableTiledWindowMargins: 0
+  # option drag to tile windows
+  EnableTilingByEdgeDrag: 0
+  EnableTilingOptionAccelerator: 1
+
 # Tap to click for trackpad
 com.apple.AppleMultitouchTrackpad:
   Clicking: false
