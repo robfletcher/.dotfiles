@@ -8,6 +8,8 @@ brew "ykman"
 brew "nvm"
 brew "gnu-tar"
 brew "pyenv"
+brew "bison"
+brew "go"
 
 # See https://developers.a.musta.ch/docs/default/component/frontend/getting-started/#nvm-node-yarn-homebrew-bazel
 brew "cmake"
