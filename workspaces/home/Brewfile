@@ -2,6 +2,7 @@ brew "roll"      # dice roller
 
 cask "1password"
 cask "iterm2"    # better terminal
+cask "calibre"
 cask "discord"
 cask "handbrake"
 cask "proton-pass"
