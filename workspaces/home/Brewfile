@@ -12,6 +12,7 @@ cask "zoom"
 cask "zulu@21"   # JDK
 
 # gaming stuff
+cask "crossover"
 cask "nvidia-geforce-now"
 cask "steam"
 
