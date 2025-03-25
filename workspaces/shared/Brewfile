@@ -30,7 +30,9 @@ cask "font-iosevka-term-nerd-font"
 cask "font-iosevka-term-slab-nerd-font"
 
 cask "arc"       # browser
+cask "iterm2"    # better terminal
 cask "jetbrains-toolbox"
 cask "obsidian"
 
 mas "Pixelmator Pro", id: 1289583905
+mas "Slack", id: 803453959
