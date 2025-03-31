@@ -31,6 +31,7 @@ cask "font-iosevka-term-slab-nerd-font"
 
 cask "arc"       # browser
 cask "iterm2"    # better terminal
+cask "ghostty"
 cask "jetbrains-toolbox"
 cask "obsidian"
 
