@@ -1,4 +1,7 @@
+tap "nextfire/tap"
+
 brew "roll"      # dice roller
+brew "apple-music-discord-rpc"
 
 cask "1password"
 cask "calibre"
