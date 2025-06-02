@@ -13,6 +13,7 @@ brew "go"
 brew "kubectx"
 brew "golangci-lint"
 brew "redis"
+brew "k9s"
 
 # See https://developers.a.musta.ch/docs/default/component/frontend/getting-started/#nvm-node-yarn-homebrew-bazel
 brew "cmake"
