@@ -43,7 +43,7 @@ bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 
 # use opt delete to delete whole words forward
-bindkey '^[[3;9~' delete-word
+bindkey '^[[3;3~' delete-word
 
 # setup autosuggestions (fish-like autosuggestions)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
