@@ -9,6 +9,7 @@ brew "fx"        # interactive JSON browser
 brew "gh"        # GitHub CLI
 brew "git"
 brew "git-delta" # better diff for git
+brew "glow"      # terminal markdown rendering
 brew "gng"       # smart gradle command, uses wrapper or falls back to installed
 brew "jq"
 brew "killport"
