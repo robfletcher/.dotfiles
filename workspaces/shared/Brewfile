@@ -24,6 +24,7 @@ brew "tldr"      # simple man
 brew "tree"
 brew "vhs"       # record terminal actions to GIF
 brew "watch"
+brew "xan"       # CSV processing
 brew "zoxide"    # better cd / autojump
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions" # autocomplete from history with muted hints
