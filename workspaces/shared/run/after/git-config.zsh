@@ -14,6 +14,7 @@ git_config=(
 	alias.amend 'commit --amend --no-edit'
 	alias.please 'push --force-with-lease'
 	alias.gone "! git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '\$2 == \"[gone]\" {print \$1}' | xargs -r git branch -D"
+	alias.mylog '!git log --author="$(git config user.name)"'
 
 	# settings for git-delta diff tool
 	core.pager "delta"
