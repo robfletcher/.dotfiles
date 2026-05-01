@@ -1,5 +1,6 @@
 tap "gdubw/gng"
 tap "BalliAsghar/apps"
+tap "darrylmorley/whatcable"
 
 brew "bat"       # better cat
 brew "broot"     # interactive tree
@@ -38,6 +39,7 @@ cask "iterm2"    # better terminal
 cask "ghostty"
 cask "jetbrains-toolbox"
 cask "obsidian"
+cask "whatcable" # menubar tool that shows USB info
 
 mas "Pixelmator Pro", id: 1289583905
 mas "Slack", id: 803453959
