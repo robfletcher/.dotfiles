@@ -5,8 +5,9 @@ brew "apple-music-discord-rpc"
 
 cask "1password"
 cask "calibre"
+cask "camo-studio" # use phone as webcam
 cask "discord"
-cask "handbrake"
+cask "handbrake-app"
 cask "proton-pass"
 cask "protonvpn"
 cask "vlc"
@@ -17,6 +18,7 @@ cask "zulu@21"   # JDK
 cask "crossover"
 cask "nvidia-geforce-now"
 cask "steam"
+cask "sony-ps-remote-play"
 
 mas "Affinity Publisher 2", id: 1606941598
 mas "Kindle", id: 302584613
