@@ -5,7 +5,6 @@ brew "apple-music-discord-rpc"
 
 cask "1password"
 cask "calibre"
-cask "camo-studio" # use phone as webcam
 cask "discord"
 cask "handbrake-app"
 cask "proton-pass"
