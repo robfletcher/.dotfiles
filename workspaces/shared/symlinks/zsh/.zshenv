@@ -23,3 +23,6 @@ export WORDCHARS=${WORDCHARS/.}
 # node stuff to make direnv work
 export NODE_VERSIONS=~/.nvm/versions/node
 export NODE_VERSION_PREFIX=v
+
+# don't confirm brew upgrades
+export HOMEBREW_NO_ASK=1
