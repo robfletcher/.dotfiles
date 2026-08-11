@@ -41,7 +41,7 @@ cask "ghostty"
 cask "jetbrains-toolbox"
 cask "obsidian"
 cask "whatcable" # menubar tool that shows USB info
+cask "imageoptim"
 
 mas "Pixelmator Pro", id: 1289583905
-mas "Slack", id: 803453959
 mas "Amphetamine", id: 937984704
